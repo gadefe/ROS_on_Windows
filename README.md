@@ -63,10 +63,10 @@ C:\Windows\System32\cmd.exe /k "C:\Program Files (x86)\Microsoft Visual Studio\2
 
 ### Gazebo launch
 
-> c:\opt\ros\melodic\x64\setup.bat
-> c:\ws\turtlebot3\devel\setup.bat
-> set TURTLEBOT3_MODEL=waffle
-> roslaunch turtlebot3_fake turtlebot3_fake.launch
+c:\opt\ros\melodic\x64\setup.bat
+c:\ws\turtlebot3\devel\setup.bat
+set TURTLEBOT3_MODEL=waffle
+roslaunch turtlebot3_fake turtlebot3_fake.launch
 
 c:\opt\ros\melodic\x64\setup.bat
 c:\ws\turtlebot3\devel\setup.bat
@@ -76,11 +76,11 @@ roslaunch turtlebot3_gazebo turtlebot3_simulation.launch
 
 ### SLAM simulation
 
-> c:\opt\ros\melodic\x64\setup.bat
-> c:\ws\turtlebot3\devel\setup.bat
-> set TURTLEBOT3_MODEL=waffle
+c:\opt\ros\melodic\x64\setup.bat
+c:\ws\turtlebot3\devel\setup.bat
+set TURTLEBOT3_MODEL=waffle
 
-> curl -o turtlebot3_demo.launch https://raw.githubusercontent.com/ms-iot/ROSOnWindows/master/docs/Turtlebot/turtlebot3_demo.launch
-> roslaunch turtlebot3_demo.launch
+curl -o turtlebot3_demo.launch https://raw.githubusercontent.com/ms-iot/ROSOnWindows/master/docs/Turtlebot/turtlebot3_demo.launch
+roslaunch turtlebot3_demo.launch
 
 
